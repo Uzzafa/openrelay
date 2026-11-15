@@ -642,12 +642,6 @@ async function serve(
   };
 }
 
-function portNumber(address: string | null): number {
-  if (address === null) throw new Error("the listener has no TCP address");
-  const at = address.lastIndexOf(":");
-  return Number(address.slice(at + 1));
-}
-
 async function main(): Promise<void> {
   const models = readModels(briefText());
   if (process.argv.slice(2).includes("--list")) {
