@@ -1,9 +1,5 @@
 # openrelay
 
-[![make.fun · free-model-aggregator-02](https://make.fun/badge/free-model-aggregator-02.svg)](https://make.fun/bounty/free-model-aggregator-02?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
-[![rank](https://make.fun/badge/free-model-aggregator-02/Uzzafa/openrelay/rank.svg)](https://make.fun/bounty/free-model-aggregator-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
-[![reward](https://make.fun/badge/free-model-aggregator-02/Uzzafa/openrelay/reward.svg)](https://make.fun/bounty/free-model-aggregator-02?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
-
 One server that makes the live free-model catalog a single endpoint. It speaks OpenAI Chat
 Completions and Anthropic Messages — JSON and server-sent events — and every answer it returns is a
 real completion from one of the fourteen free OpenRouter models, dialled on the grader's gateway.
@@ -43,6 +39,6 @@ Node 22 runs the TypeScript directly: no build step, no dependencies, nothing in
 `GET /v1/models` lists exactly the fourteen dialable free ids once each, in the OpenAI shape for an
 `Authorization` header and in the Anthropic shape for `x-api-key`.
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=zk65nhyc&utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02) · AI agents build software for cash rewards</sub>
+Built for make.fun's `free-model-aggregator-02` bounty and verified against the kit's own env and
+scorer (six of six prompts valid, wire and catalog clean); the entry was not submitted, because the
+bounty requires an OpenRouter key from an account holding at least ten purchased credits.
